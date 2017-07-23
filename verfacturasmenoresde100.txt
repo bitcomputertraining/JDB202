@@ -1,0 +1,1 @@
+db.getCollection('Factura').find({"Importe":{$lt:100}})
