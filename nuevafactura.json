@@ -1,0 +1,6 @@
+{
+    "Codigo_Factura":"ABC123",
+    "Cliente":"John",
+    "Importe":33.14,
+    "Estado":"Pendiente"
+}

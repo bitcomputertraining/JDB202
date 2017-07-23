@@ -1,0 +1,17 @@
+db.getCollection('Factura').update(
+    // query 
+    {
+        "Codigo_Factura" : "ABC124"
+    },
+    
+    // update 
+    {
+        $set: { "Estado": "Pagada" }
+    },
+    
+    // options 
+    {
+        "multi" : false,  // update only one document 
+        "upsert" : false  // insert a new document, if no existing document match the query 
+    }
+);
